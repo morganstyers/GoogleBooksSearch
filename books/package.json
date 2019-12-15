@@ -1,0 +1,25 @@
+{
+  "name": "books",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "babel": "^6.23.0",
+    "create-react-app": "^3.3.0",
+    "next": "^9.1.5",
+    "node": "^13.3.0",
+    "react": "^16.12.0",
+    "react-app": "^1.1.2",
+    "react-dom": "^16.12.0",
+    "react-scripts": "3.3.0",
+    "webpack": "^4.41.2",
+    "yarn": "^1.21.1"
+  },
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

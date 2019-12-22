@@ -1,12 +1,13 @@
 import React from "react";
-import "./style.css";
 
-const Footer = () => (
-	<footer className = "page-footer">
-		<div className = "container-fluid text-center">
-			<p>Morgan Styers</p>
-		</div>	
-	</footer>
-);
+function Footer() {
+  return (
+    <nav className="navbar-expand-sm navbar-dark bg-secondary">
+      <a className="navbar-brand" href="/">
+         copyright&copy; 2019 Morgan Styers
+      </a>
+    </nav>
+  );
+}
 
 export default Footer;

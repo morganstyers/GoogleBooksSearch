@@ -21,7 +21,7 @@ class Books extends Component {
   }
 
   loadBooks = () => {
-    API.getBooks()
+    API.getBook()
       .then(res =>
         this.setState({ books: res.data, title: "", author: "" })
       )
@@ -60,7 +60,7 @@ class Books extends Component {
   }
 
   saveBook = (title, author,snipet) => {
-    var authorString = author.toString();
+    var authorString = author.toString("");
      
     console.log(title, authorString);
     API.saveBook({
